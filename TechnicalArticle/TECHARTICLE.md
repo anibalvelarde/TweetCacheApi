@@ -37,7 +37,7 @@ This is an applicaiton that will take avantage of Twitter's Developer API servic
 - [Spackle](https://github.com/JasonBock/SpackleNet)
 - [Autofac for ASP.NET Core](http://autofac.readthedocs.io/en/latest/integration/aspnetcore.html)
 
-# Elastic Container Services
+# Amazon's Elastic Container Services (ECS)
 
 ### Define a Task on ECS
 First, to run Docker containters you must define a [Task on ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html).
