@@ -33,6 +33,8 @@ This is an applicaiton that will take avantage of Twitter's Developer API servic
 - Redis Cache
 - C#
 - Swagger
+- [TweetInvi](https://github.com/linvi/tweetinvi/wiki/Introduction)
+- [Spackel](https://github.com/JasonBock/SpackleNet)
 
 # Elastic Container Services
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Autofac;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +25,11 @@ namespace TweetCacheApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new Ioc.Module());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
