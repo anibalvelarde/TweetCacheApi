@@ -63,5 +63,5 @@ After your cluster is defined, you can:
 - [General AWS Help Directory](https://aws.amazon.com/premiumsupport/knowledge-center/get-aws-help/)
 
 # Instructions from other Cloud Providers
-The [Cloud Trials](https://twitter.com/CloudTrials) Twitter account [tweeted out a request](https://twitter.com/CloudTrials/status/982733891608956930) to other cloud providers (Azure, Google Cloud, Heroku) to see if they could share any `help` or `how-to-type` of documentation about building / deploying a REST API on their corresponding platforms. I'll draw on any info that comes from that resource to see how this same REST API can be built in other cloud services.
+The [Cloud Trials](https://twitter.com/CloudTrials) Twitter account [tweeted out a request](https://twitter.com/CloudTrials/status/983122616197304320) to other cloud providers (Azure, Google Cloud, Heroku) to see if they could share any `help` or `how-to-type` of documentation about building / deploying a REST API on their corresponding platforms. I'll draw on any info that comes from that resource to see how this same REST API can be built in other cloud services.
 
