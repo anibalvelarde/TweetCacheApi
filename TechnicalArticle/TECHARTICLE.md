@@ -26,18 +26,13 @@ This is an applicaiton that will take avantage of Twitter's Developer API servic
 - Caching
 
 # Technologies used
-- VS 2017
-- .NET Core
-- Web API 2
-- ASP.NET Core
-- Redis Cache
-- C#
-- Swagger
-- [TweetInvi](https://github.com/linvi/tweetinvi/wiki/Introduction)
-- [Spackle](https://github.com/JasonBock/SpackleNet)
-- [Autofac for ASP.NET Core](http://autofac.readthedocs.io/en/latest/integration/aspnetcore.html)
+|:-------:|:-------:|:-------:|:-------:|:-------:|
+|VS 2017|.NET Core|Web API 2|ASP.NET Core|Redis Cache|
+|C#|Swagger|[TweetInvi](https://github.com/linvi/tweetinvi/wiki/Introduction)|[Spackle](https://github.com/JasonBock/SpackleNet)|[Autofac for ASP.NET Core](http://autofac.readthedocs.io/en/latest/integration/aspnetcore.html)|
 
 # Amazon's Elastic Container Services (ECS)
+
+
 
 ### Define a Task on ECS
 First, to run Docker containters you must define a [Task on ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html).
@@ -61,4 +56,11 @@ After your cluster is defined, you can:
 - hook up your project from GitHub. In this case I am using my [Tweet Cache REST API](https://github.com/anibalvelarde/TweetCacheApi) project on GitHub.com.
 - define a build operation. You can use a variety of tools from AWS and 3rd Party
 - define a release operation. You can use a variety of tools from AWS. 
+
+# Instructions from Amazon Web Services
+- [REST API How-To](https://aws.amazon.com/getting-started/serverless-web-app/module-4/?sc_channel=sm&sc_publisher=TWITTER&sc_geo=GLOBAL&sc_outcome=AWS%20Support&trk=_TWITTER&linkId=50200643)
+- [General AWS Help Directory](https://aws.amazon.com/premiumsupport/knowledge-center/get-aws-help/)
+
+# Instructions from other Cloud Providers
+The [Cloud Trials](https://twitter.com/CloudTrials) Twitter account [tweeted out a request](https://twitter.com/CloudTrials/status/982733891608956930) to other cloud providers (Azure, Google Cloud, Heroku) to see if they could share any `help` or `how-to-type` of documentation about building / deploying a REST API on their corresponding platforms. I'll draw on any info that comes from that resource to see how this same REST API can be built in other cloud services.
 
