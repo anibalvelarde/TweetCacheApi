@@ -34,7 +34,8 @@ This is an applicaiton that will take avantage of Twitter's Developer API servic
 - C#
 - Swagger
 - [TweetInvi](https://github.com/linvi/tweetinvi/wiki/Introduction)
-- [Spackel](https://github.com/JasonBock/SpackleNet)
+- [Spackle](https://github.com/JasonBock/SpackleNet)
+- [Autofac for ASP.NET Core](http://autofac.readthedocs.io/en/latest/integration/aspnetcore.html)
 
 # Elastic Container Services
 
