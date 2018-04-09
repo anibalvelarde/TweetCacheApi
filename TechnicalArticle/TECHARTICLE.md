@@ -26,6 +26,7 @@ This is an applicaiton that will take avantage of Twitter's Developer API servic
 - Caching
 
 # Technologies used
+| | | | | |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 |VS 2017|.NET Core|Web API 2|ASP.NET Core|Redis Cache|
 |C#|Swagger|[TweetInvi](https://github.com/linvi/tweetinvi/wiki/Introduction)|[Spackle](https://github.com/JasonBock/SpackleNet)|[Autofac for ASP.NET Core](http://autofac.readthedocs.io/en/latest/integration/aspnetcore.html)|
