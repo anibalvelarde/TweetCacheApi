@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetCacheApi", "TweetCacheApi\TweetCacheApi.csproj", "{F0A877AC-37D0-4F2B-BFFA-5565C4AFE753}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetCacheApi", "TweetCacheApi\TweetCacheApi.csproj", "{F0A877AC-37D0-4F2B-BFFA-5565C4AFE753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetCacheApiTest", "TweetCacheApiTest\TweetCacheApiTest.csproj", "{59A97604-074A-44BA-AAFA-89384594830C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetCacheApiTests", "TweetCacheApiTests\TweetCacheApiTests.csproj", "{59A97604-074A-44BA-AAFA-89384594830C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -19,7 +19,7 @@
     "TweetCacheApi": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/twusers",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

@@ -52,11 +52,24 @@ The resources that are created include Cluster, VPC, Subnets and Auto-Scaling gr
 
 Regarding **VPC** definiiton, there is some great [info at AWS here](https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html).
 
-### Create Ci / Cd Pipelines
+# Ci / Cd Pipeline
 After your cluster is defined, you can:
 - hook up your project from GitHub. In this case I am using my [Tweet Cache REST API](https://github.com/anibalvelarde/TweetCacheApi) project on GitHub.com.
 - define a build operation. You can use a variety of tools from AWS and 3rd Party
 - define a release operation. You can use a variety of tools from AWS. 
+
+**UPDATE:**
+After further investigation, I realized that there is an easier way to do this with a new AWS feature called [AWS CodeStar](https://console.aws.amazon.com/codestar/home?region=us-east-1#/). With this tool you can (from a single pane of glass):
+- Create new applications (with a variety of tech stacks)
+- Work across your team securely
+- Manage software delivery
+
+### CodeStar Useful Links:
+- [Getting Started](https://docs.aws.amazon.com/codestar/latest/userguide/getting-started.html?icmpid=docs_acs_console_mk)
+- [Documentation](https://docs.aws.amazon.com/codestar/latest/userguide/welcome.html?icmpid=docs_acs_console_mk)
+- [Forums](https://forums.aws.amazon.com/forum.jspa?forumID=248)
+
+
 
 # Instructions from Amazon Web Services
 - [REST API How-To](https://aws.amazon.com/getting-started/serverless-web-app/module-4/?sc_channel=sm&sc_publisher=TWITTER&sc_geo=GLOBAL&sc_outcome=AWS%20Support&trk=_TWITTER&linkId=50200643)
