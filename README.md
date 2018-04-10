@@ -2,7 +2,7 @@
 ###### [Formatted with Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 
 The basis for this work is 3 fold:
-- Learn about cloud technologies (AWS specifically)
+- Learn about cloud technologies (Azure specifically)
 - Learn about API creation and reinforce elements learned from [Designing Evolvable APIs with ASP.NET](https://www.amazon.com/gp/product/1449337716/ref=oh_aui_detailpage_o05_s01?ie=UTF8&psc=1)
 - Document what I'm learning on this forum 
 
