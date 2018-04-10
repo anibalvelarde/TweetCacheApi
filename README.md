@@ -10,21 +10,21 @@ The basis for this work is 3 fold:
   
 This is an applicaiton that will take avantage of Twitter's Developer API services and perform searches about activities of specific Twitter accounts and display that activity for later reference from a client applicaiton. Since the free Twitter service only goes back 7 days in the past, this API will use cache of up to 21 days in the past.
 
-# Cloud platforms
+## Cloud platforms
 - Azure App Services
 
-# 3rd Party Cloud services
+## 3rd Party Cloud services
 - Twitter API
 
-# Application Architecture
+## Application Architecture
 - REST API
 
 
-# Techniques, Patterns and Principles used
+## Techniques, Patterns and Principles used
 - Separation of Concerns
 - Caching
 
-# Technologies used
+## Technologies used
 | | | | | |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 |VS 2017|.NET Core|Web API 2|ASP.NET Core|Redis Cache|
