@@ -48,11 +48,6 @@ This created all the resources that were required automatically:
 - App Service itself
 - Application Insights (I had to opt in to use this)
 
-# Release notes
-| Date    | <------------------ Change Description ------------------> | Interesting Observations|
-|:-------:|:-----------------------------------------------------------|:-----------------------:|
-|4-9-2018 | Initial push to Azure's App Services                       |  -- none --             |
-
 Completing this does not get you anything working (you have not deployed anything yet).  The next part is very important....
 
 ### Continuous Integration (Build) & Continuous Delivery (Release) Pipeline
@@ -65,4 +60,9 @@ Some things to keep in mind here:
 - I used a template for Web Api for ASP.NET Core.  When I deployed it for the first time, the automation software complained that I attempted to deploy a web app, but that it could not recognize it was a web app because it was missing the Web.Config file.  I'm sure there is a 'trick' to fix this, but then again, the goal of this experience was to see how we can get from source to CI/CD pipeline automation with the most out-of-the-box (little tweaking) as possible.
 
 After those 2 things were corrected (a couple of attempts later), the [endpoint was ready](https://tweetcacheapi.azurewebsites.net/api/twusers).
+
+# Release notes
+| Date    | <------------------ Change Description ------------------> | Interesting Observations|
+|:-------:|:-----------------------------------------------------------|:-----------------------:|
+|4-9-2018 | Initial push to Azure's App Services                       |  -- none --             |
 
